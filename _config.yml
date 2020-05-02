@@ -1,0 +1,7 @@
+theme: jekyll-theme-minimal
+title: Miroslav Šedivý
+decription: Lorem ipsum
+logo: https://github.com/eumiro.png?size=200
+paginate: 2
+plugins:
+  - jekyll-feed
