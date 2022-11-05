@@ -4,11 +4,11 @@ layout: default
 
 <div style="font-size: 240%; font-weight: 900; color: black">{{ page.title }}</div>
 <div style="font-size: 80%">
-    <i class="fa fa-calendar"></i> {{ page.date | date: "%a %-d %B %Y" }}
+    {{ page.date | date: "%a %-d %B %Y" }}
     &nbsp;|&nbsp;
-    <i class="fa fa-tag"></i> {{ page.tags | join: " &bull; " }}
+    {{ page.tags | join: " &bull; " }}
     &nbsp;|&nbsp;
-    <i class="fa fa-align-left"></i> {{ page.content | number_of_words }} words
+    {{ page.content | number_of_words }} words
 </div>
 <div style="font-style: italic">{{ page.abstract }}</div>
 <p></p>
